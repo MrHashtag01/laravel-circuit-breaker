@@ -18,4 +18,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('/',[CrudController::class,'index']);
+Route::get('/crud', [CrudController::class, 'index']);
